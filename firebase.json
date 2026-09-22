@@ -1,0 +1,15 @@
+{
+  "auth": {
+    "providers": {
+      "googleSignIn": true,
+      "emailPassword": true
+    },
+    "authorizedDomains": [
+      "localhost",
+      "ijeora-travel-assistance-app.firebaseapp.com",
+      "ijeora-travel-assistance-app.web.app",
+      "ais-dev-5ygimmntssfjt4epoqwgc5-559951492735.europe-west2.run.app",
+      "ais-pre-5ygimmntssfjt4epoqwgc5-559951492735.europe-west2.run.app"
+    ]
+  }
+}

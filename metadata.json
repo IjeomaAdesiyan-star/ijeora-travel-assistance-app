@@ -1,0 +1,7 @@
+{
+  "name": "IJEORA",
+  "description": "Global travel intelligence and destination discovery platform. Illuminate Your Journey. Know Before You Go.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
