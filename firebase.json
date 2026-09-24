@@ -11,5 +11,19 @@
       "ais-dev-5ygimmntssfjt4epoqwgc5-559951492735.europe-west2.run.app",
       "ais-pre-5ygimmntssfjt4epoqwgc5-559951492735.europe-west2.run.app"
     ]
+  },
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
