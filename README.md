@@ -2,27 +2,65 @@
 
 > **Illuminate Your Journey. Know Before You Go.**
 
-IJEORA is a travel intelligence and destination discovery platform providing verified visa policies, entry protocols, transit pathways, and authentic local travel experiences.
+IJEORA is a travel intelligence and destination discovery platform designed to help travelers make better-informed decisions before and during their journeys.
+
+The platform brings together destination discovery, visa and entry information, practical travel pathways, travel alerts, community reporting, and personalized travel features in one experience.
+
+**Live Demo:** https://ijeora-travel-assistance-app.web.app
 
 ---
 
-## Key Features
+## What IJEORA Offers
 
-- **Visa & Entry Intelligence Engine**: Instant travel requirement lookups across 195+ world passports and international destinations.
-- **Practical Entry Pathways**: Step-by-step guidance for entry, transit requirements, customs clearances, and constitutional domestic travel rights.
-- **Interactive Destination Discovery**: Curated guides, high-resolution imagery, and practical travel insights.
-- **Travel Alerts & Trust System**: Verified alerts and community reporting to prevent travel misinformation.
-- **Short Video Experiences**: Micro-documentary travel highlights.
-- **User Profiles & Bookmarks**: Secure authentication with Firebase to save destinations, collections, and custom travel preferences.
+### Visa & Entry Intelligence
+
+Explore destination entry requirements and travel information designed to make visa and entry planning easier to understand.
+
+### Practical Entry Pathways
+
+Get practical guidance around entry procedures, transit considerations, customs requirements, and other information travelers may need when planning a journey.
+
+### Destination Discovery
+
+Discover destinations through curated information, imagery, travel insights, and practical details designed for real-world travel planning.
+
+### Travel Alerts & Trust
+
+Stay informed about relevant travel alerts and contribute to a more trustworthy travel-information ecosystem through reporting and community feedback.
+
+### Short Video Experiences
+
+Explore destinations through short-form travel content and visual experiences.
+
+### Profiles & Collections
+
+Create a personalized experience through user profiles, saved destinations, collections, and travel preferences.
 
 ---
 
 ## Technology Stack
 
-- **Frontend**: React 19, TypeScript, Vite
-- **Styling & Motion**: Tailwind CSS, Motion
-- **Icons**: Lucide React
-- **Backend & Persistence**: Firebase Authentication, Cloud Firestore
+**Frontend**
+
+* React 19
+* TypeScript
+* Vite
+
+**UI & Experience**
+
+* Tailwind CSS
+* Motion
+* Lucide React
+
+**Cloud Services**
+
+* Firebase Authentication
+* Firebase Hosting
+
+**Development**
+
+* npm
+* Bun
 
 ---
 
@@ -30,29 +68,66 @@ IJEORA is a travel intelligence and destination discovery platform providing ver
 
 ### Prerequisites
 
-- Node.js 18+
-- npm or bun
+* Node.js 18+
+* npm or Bun
+* Git
 
-### Installation
+### Clone the Repository
+
+```bash
+git clone https://github.com/IjeomaAdesiyan-star/ijeora-travel-assistance-app.git
+cd ijeora-travel-assistance-app
+```
+
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Development
+### Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-### Production Build
+The development server runs locally at:
+
+```text
+http://localhost:3000
+```
+
+### Create a Production Build
 
 ```bash
 npm run build
 ```
 
+### Deploy to Firebase Hosting
+
+```bash
+firebase deploy --only hosting
+```
+
+---
+
+## Project Status
+
+IJEORA is currently under active development.
+
+The public version is available for testing, feedback, and iteration while the platform's features, travel intelligence, destination content, and user experience continue to evolve.
+
+---
+
+## Vision
+
+IJEORA is being developed as more than a destination directory.
+
+The long-term vision is to create a trusted travel intelligence platform that helps people **discover where to go, understand how to get there, and make more informed decisions about their journeys.**
+
 ---
 
 ## License
 
-All rights reserved © IJEORA.
+All rights reserved © IJEORA
+
